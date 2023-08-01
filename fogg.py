@@ -9,4 +9,10 @@ for i in l2:
         if i[j] in ['a','e','i','o','u']:
             c+=1
     print(c)
+for i in l2:
+    c=0
+    for j in range(len(i)):
+        if i[j] in ['a','e','i','o','u']:
+            c+=1
+    print(i,c)
             
