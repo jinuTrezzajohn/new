@@ -28,5 +28,11 @@ vow=[1,1,0]
 for i in range(len(l2)):
     k[l2[i]]=vow[i]
 print(k)
+m={}
+length=[3,3,3]
+for i in range(len(l2)):
+    m[l2[i]]=length[i]
+print(m)
+
 
 
