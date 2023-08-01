@@ -16,10 +16,17 @@ for i in l2:
         if i[j] in ['a','e','i','o','u']:
             c+=1
     print(i,c)
+
             
 
 for i in l1:
     print(i**2)
 for i in l1:
     print(i**3)
+k={}
+vow=[1,1,0]
+for i in range(len(l2)):
+    k[l2[i]]=vow[i]
+print(k)
+
 
