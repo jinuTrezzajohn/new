@@ -12,5 +12,6 @@ print(d)
 for i in range(len(l1)):
     d1[i]=(l1[i]**3)
 print(d1)
+print(l1)
 
 
